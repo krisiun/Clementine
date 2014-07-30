@@ -1,0 +1,6 @@
+language: c++
+compiler:
+  - g++
+  - clang++
+# Change this to your needs
+script: cmake . && make
